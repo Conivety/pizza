@@ -3,3 +3,61 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.banner{
+	background-color: black;
+	text-align: center;
+}
+
+.nav{
+	justify-content: solid; 
+	background-color: wheat;
+	padding: 10px;
+}
+
+ul,a{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.main{
+	background-color: tomato;
+	border-radius: 10px;
+	width: 100px;
+	color: white;
+	cursor: pointer;
+}
+
+a{
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	justify-content: center;
+}
+
+.main:hover{
+	transform: scale(1.1);
+	box-shadow: 6px 4px 10px -2px grey;
+	border: 2px solid red;
+}
+
+.pizza{
+	background-image: url('../images/Lesson_6-0.jpg');
+	background-size: cover;
+	width: 100vw;
+	height: 70vh;
+}
+
+.pizzapro{
+	width: 30vw;
+	height: 30vh;
+	position: relative;
+	left: 30%;
+	bottom: 800px
+}
+
+.pizzapro{
+	box-shadow: 10px 8px 10px 6px grey;
+}
