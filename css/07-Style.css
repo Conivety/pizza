@@ -60,4 +60,58 @@ a{
 
 .pizzapro{
 	box-shadow: 10px 8px 10px 6px grey;
+	border: 2px solid black;
+}
+
+.pizzapro:hover{
+	transform: scale(1.1)
+}
+
+h2{
+	font-weight: bold;
+	color: brown;
+	font-size: 30px;
+	position: relative;
+	left: 75%;
+	bottom: 830px;
+}
+
+.para{
+	color: brown;
+	font-size: 15px;
+	position: relative;
+	left: 74%;
+	bottom: 770px;
+}
+
+.form{
+	width: 800px;
+	height: 200px;
+	position: relative;
+	bottom: 750px;
+	left: 7%;
+	background-color: white;
+	border: 2px solid black
+}
+
+.form h1{
+	margin-left: 350px;
+	margin-top: 15px;
+	color: brown;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.form p{
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.form form{
+	margin-left: 275px;
+	margin-top: 25px;
+}
+
+.form a{
+	color: blue;
+	margin-top: 15px;
 }
